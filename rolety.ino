@@ -57,7 +57,7 @@ void ir(){
 // funkcia na nastavenie uhlu podľa svetelného senzoru
 void ls(){
   svetelnySenzor = analogRead(A0);
-  if(svetelnySenzor > 0)
+  if(svetelnySenzor > 10)
   {
     if(svetelnySenzor < 50)
     {
